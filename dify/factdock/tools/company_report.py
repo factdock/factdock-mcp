@@ -16,6 +16,7 @@ class CompanyReportTool(Tool):
             "country_code": (p.get("country_code") or "").strip().upper(),
             "url": p.get("url"),
             "location": p.get("location"),
+            "representative": p.get("representative"),
             "scope": p.get("scope") or "domestic",
             "include_governance": bool(p.get("include_governance")),
             "lang": p.get("lang") or "en",

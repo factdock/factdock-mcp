@@ -53,6 +53,15 @@ parameters:
     human_description:
       en_US: Optional city or address.
     llm_description: Optional city or address.
+  - name: representative
+    type: string
+    required: false
+    form: llm
+    label:
+      en_US: Representative
+    human_description:
+      en_US: Optional representative name returned by company_identify.
+    llm_description: Optional representative name returned by company_identify for the chosen candidate. Used only when the report would otherwise name a role without a person.
   - name: scope
     type: select
     required: false
