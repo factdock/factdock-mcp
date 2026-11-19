@@ -3,7 +3,7 @@
 **Author:** factdock
 **Version:** 0.0.1
 **Type:** tool
-**Source:** https://github.com/taiwanchinese1/factdock-mcp/tree/main/dify/factdock
+**Source:** https://github.com/factdock/factdock-mcp/tree/main/dify/factdock
 
 Factdock is a multilingual search engine for primary sources. It searches each country's official sites, academic papers, patents, company and trade information in that country's own language, and returns the original sources with URLs, dates and translated titles and summaries.
 

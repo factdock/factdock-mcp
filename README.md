@@ -84,7 +84,7 @@ See [llms-install.md](llms-install.md). Cline settings (`cline_mcp_settings.json
 ### Antigravity CLI
 
 ```bash
-agy plugin install https://github.com/taiwanchinese1/factdock-mcp
+agy plugin install https://github.com/factdock/factdock-mcp
 ```
 
 The plugin asks for `FACTDOCK_API_KEY` (a personal API key from <https://fact-dock.com/api-hub>).
@@ -92,7 +92,7 @@ The plugin asks for `FACTDOCK_API_KEY` (a personal API key from <https://fact-do
 ### Gemini CLI
 
 ```bash
-gemini extensions install https://github.com/taiwanchinese1/factdock-mcp
+gemini extensions install https://github.com/factdock/factdock-mcp
 ```
 
 Sign in with your Factdock account when the browser opens.

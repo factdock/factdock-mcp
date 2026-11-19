@@ -15,7 +15,7 @@ resource:
 plugins:
   tools:
     - provider/factdock.yaml
-repo: https://github.com/taiwanchinese1/factdock-mcp
+repo: https://github.com/factdock/factdock-mcp
 contact: info@fact-dock.com
 network:
   domains:

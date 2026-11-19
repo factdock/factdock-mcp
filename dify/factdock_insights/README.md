@@ -3,7 +3,7 @@
 **Author:** factdock
 **Version:** 0.0.1
 **Type:** tool
-**Source:** https://github.com/taiwanchinese1/factdock-mcp/tree/main/dify/factdock_insights
+**Source:** https://github.com/factdock/factdock-mcp/tree/main/dify/factdock_insights
 
 Factdock Insights collects official and industry news from primary sources in many countries: government and regulator announcements, approvals, safety notices, and company and pipeline news. This plugin returns those items with titles and summaries in the original language or in your language (languages in your contract), plus the original source URL and date for every item.
 

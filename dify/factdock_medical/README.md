@@ -3,7 +3,7 @@
 **Author:** factdock
 **Version:** 0.0.1
 **Type:** tool
-**Source:** https://github.com/taiwanchinese1/factdock-mcp/tree/main/dify/factdock_medical
+**Source:** https://github.com/factdock/factdock-mcp/tree/main/dify/factdock_medical
 
 Factdock Medical DB gives agents and workflows access to official medicine databases for human and veterinary drugs: approved products and labels from national authorities, adverse-event report counts from public U.S. FDA systems, and published medical and veterinary literature. Every result is the original record with its source URL.
 
