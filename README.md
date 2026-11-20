@@ -31,7 +31,7 @@ Factdock is a multilingual search engine for primary sources. It searches the we
 
 The full tool list with descriptions is published at <https://fact-dock.com/.well-known/mcp/server-card.json>.
 
-**Supported coverage is in the tool schemas.** Where a tool works only for certain countries, the input field lists them, so your AI assistant can see the coverage before calling: `realestate_registry` (20 countries), `sourcing_search` (132 countries). Official tariff rates cover the US, GB, JP, NZ, TW, NO, BR, MX, CA, VN, UA and the 27 EU member states. The descriptions of `trade_compliance_check` and `epidemic_risk` list which tariff tables and diseases are covered. A country outside the list is refused before any credits are used.
+**Supported coverage is in the tool schemas.** Where a tool works only for certain countries, the input field lists them, so your AI assistant can see the coverage before calling: `realestate_registry` (20 countries), `sourcing_search` (132 countries). Official tariff rates cover the US, GB, JP, NZ, TW, NO, BR, MX, CA, VN, UA, AE, CL, UY, ZA, AU, the EAEU members (RU, KZ, BY, AM, KG) and the 27 EU member states. The descriptions of `trade_compliance_check` and `epidemic_risk` list which tariff tables and diseases are covered. A country outside the list is refused before any credits are used.
 
 ## Connect
 
