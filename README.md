@@ -26,6 +26,8 @@ Factdock is a multilingual search engine for primary sources. It searches the we
 | Veterinary references | `vet_drug_risk_check`, `vet_intake_crosscheck`, `clinical_fact_search`, `clinical_hypothesis_search`, `clinical_web_context` |
 | Infectious disease map | `epidemic_diseases`, `epidemic_risk` |
 | Global Insights news feed | `insights_feed`, `insights_videos` |
+| Documents from results (Word, PDF or Markdown, using your templates) | `list_doc_templates`, `create_work_document` (free) |
+| Share link for results | `create_share_link` (free) |
 | Prices | `get_prices` (free) |
 | Receive a result that did not arrive | `get_pending_result` (free) |
 
