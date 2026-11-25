@@ -35,6 +35,8 @@ The full tool list with descriptions is published at <https://fact-dock.com/.wel
 
 **Supported coverage is in the tool schemas.** Where a tool works only for certain countries, the input field lists them, so your AI assistant can see the coverage before calling: `realestate_registry` (20 countries), `sourcing_search` (132 countries). Official tariff rates cover the US, GB, JP, NZ, TW, NO, BR, MX, CA, VN, UA, AE, CL, UY, ZA, AU, KR, TR, CN, the EAEU members (RU, KZ, BY, AM, KG) and the 27 EU member states. The descriptions of `trade_compliance_check` and `epidemic_risk` list which tariff tables and diseases are covered. A country outside the list is refused before any credits are used.
 
+**Medical and veterinary questions:** `academic_search` takes an optional `subject` (human, or an animal species such as dog or cat) and `medical_db_search` (literature) takes `species`. If the user has not said whether the question is about humans or an animal, your AI assistant should ask first. Papers about the chosen species come first; papers about other species are kept at the end as reference.
+
 ## Connect
 
 ### Claude Code
