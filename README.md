@@ -15,6 +15,7 @@ Factdock is a multilingual search engine for primary sources. It searches the we
 |---|---|
 | Web search by country or language sphere | `web_search` |
 | Academic papers | `academic_search` |
+| Medical & veterinary literature | `medical_literature_search` |
 | Patents | `patent_search`, `patent_detail` |
 | Companies (registry, sanctions, risk) | `company_identify`, `company_report` |
 | Trade compliance (HS codes, tariffs, export controls) | `trade_compliance_check`, `sourcing_search` |
@@ -34,6 +35,8 @@ Factdock is a multilingual search engine for primary sources. It searches the we
 The full tool list with descriptions is published at <https://fact-dock.com/.well-known/mcp/server-card.json>.
 
 **Supported coverage is in the tool schemas.** Where a tool works only for certain countries, the input field lists them, so your AI assistant can see the coverage before calling: `realestate_registry` (20 countries), `sourcing_search` (132 countries). Official tariff rates cover the US, GB, JP, NZ, TW, NO, BR, MX, CA, VN, UA, AE, CL, UY, ZA, AU, KR, TR, CN, the EAEU members (RU, KZ, BY, AM, KG) and the 27 EU member states. The descriptions of `trade_compliance_check` and `epidemic_risk` list which tariff tables and diseases are covered. A country outside the list is refused before any credits are used.
+
+**Medical and veterinary literature (`medical_literature_search`):** for a clinical question, your AI assistant first confirms with you the subject (humans or which animal), the aspects to search (for example treatment effect, recurrence, prognosis, complications; up to 3 are included in the base price) and whether Factdock should translate the results or return the original English for the assistant to translate (cheaper). Each aspect is searched separately; every paper comes with sample size, study design, follow-up, key numbers quoted from the abstract, a DOI check and recalculated percentages. Numbers that are not in the abstract are never invented.
 
 **Medical and veterinary questions:** `academic_search` takes an optional `subject` (human, or an animal species such as dog or cat) and `medical_db_search` (literature) takes `species`. If the user has not said whether the question is about humans or an animal, your AI assistant should ask first. Papers about the chosen species come first; papers about other species are kept at the end as reference.
 
