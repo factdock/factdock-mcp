@@ -22,6 +22,7 @@ Factdock is a multilingual search engine for primary sources. It searches the we
 | Economy and finance statistics | `finance_search` |
 | Real estate | `realestate_market`, `realestate_registry` |
 | Government and infrastructure projects | `gov_infra_search` |
+| Laws (official text of an article) | `statute_search` |
 | Contracts | `contract_review`, `contract_bilingual_compare`, `contract_draft_outline`, `contract_draft_generate` |
 | Medicine databases | `medical_db_search`, `medical_db_detail` |
 | Veterinary references | `vet_drug_risk_check`, `vet_intake_crosscheck`, `clinical_fact_search`, `clinical_hypothesis_search`, `clinical_web_context` |
@@ -37,6 +38,8 @@ The full tool list with descriptions is published at <https://fact-dock.com/.wel
 **Supported coverage is in the tool schemas.** Where a tool works only for certain countries, the input field lists them, so your AI assistant can see the coverage before calling: `realestate_registry` (20 countries), `sourcing_search` (132 countries). Official tariff rates cover the US, GB, JP, NZ, TW, NO, BR, MX, CA, VN, UA, AE, CL, UY, ZA, AU, KR, TR, CN, the EAEU members (RU, KZ, BY, AM, KG) and the 27 EU member states. The descriptions of `trade_compliance_check` and `epidemic_risk` list which tariff tables and diseases are covered. A country outside the list is refused before any credits are used.
 
 **Medical and veterinary literature (`medical_literature_search`):** for a clinical question, your AI assistant first confirms with you the subject (humans or which animal), the aspects to search (for example treatment effect, recurrence, prognosis, complications; up to 3 are included in the base price) and whether Factdock should translate the results or return the original English for the assistant to translate (cheaper). Each aspect is searched separately; every paper comes with sample size, study design, follow-up, key numbers quoted from the abstract, a DOI check and recalculated percentages. Numbers that are not in the abstract are never invented.
+
+**Statute search (`statute_search`):** the official, currently-in-force text of a law article with its effective date and the law's amendment history, from the government's own legislation database: Japan, the United Kingdom, the EU (every official EU language), Spain and Sweden live, and Factdock's copies of the official bulk data for France, Germany, the US Code of Federal Regulations and Canada. The provision text is never written by AI; a reference translation is returned next to the original. Other countries are not charged and get the link to the official database.
 
 **Medical and veterinary questions:** `academic_search` takes an optional `subject` (human, or an animal species such as dog or cat) and `medical_db_search` (literature) takes `species`. If the user has not said whether the question is about humans or an animal, your AI assistant should ask first. Papers about the chosen species come first; papers about other species are kept at the end as reference.
 
