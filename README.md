@@ -41,7 +41,7 @@ The full tool list with descriptions is published at <https://fact-dock.com/.wel
 
 **Statute search (`statute_search`):** the official, currently-in-force text of a law article with its effective date and the law's amendment history, from the government's own legislation database: Japan, the United Kingdom, the EU (every official EU language), Spain and Sweden live, and Factdock's copies of the official bulk data for France, Germany, the US Code of Federal Regulations and Canada. The provision text is never written by AI; a reference translation is returned next to the original. Other countries are not charged and get the link to the official database.
 
-**Medical and veterinary questions:** `academic_search` takes an optional `subject` (human, or an animal species such as dog or cat) and `medical_db_search` (literature) takes `species`. If the user has not said whether the question is about humans or an animal, your AI assistant should ask first. Papers about the chosen species come first; papers about other species are kept at the end as reference.
+**Medical and veterinary questions:** `academic_search` covers fields other than medicine and veterinary medicine (economics, engineering, law, environment and more) and does not search medical databases. For a medical or veterinary question use `medical_literature_search` (it asks for humans or which animal first); for drug labels and side effects use `medical_db_search` (literature takes `species`).
 
 ## Connect
 

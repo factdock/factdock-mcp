@@ -5,8 +5,8 @@ identity:
     en_US: Academic paper search
 description:
   human:
-    en_US: Search scholarly databases, ranked by evidence tier. The top 10 results come with translated titles and summaries. Uses API credits.
-  llm: Searches scholarly literature across academic databases ranked by evidence tier; the top 10 results include translated titles and summaries, the rest are returned as published.
+    en_US: Search scholarly databases for fields other than medicine (economics, engineering, law, environment and more), ranked by evidence tier. The top 10 results come with translated titles and summaries. Uses API credits.
+  llm: Searches scholarly literature for fields other than medicine and veterinary medicine, ranked by evidence tier; the top 10 results include translated titles and summaries, the rest are returned as published. For medical or veterinary questions use medical_literature_search instead.
 parameters:
   - name: query
     type: string
